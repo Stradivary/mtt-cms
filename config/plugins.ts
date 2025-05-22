@@ -1,6 +1,8 @@
+import path from 'path';
+
 export default () => ({
-  "kurban-distribution": {
+  'kurban-distribution': {
     enabled: true,
-    resolve: "./src/plugins/kurban-distribution",
+    resolve: path.resolve(__dirname, '../src/plugins/kurban-distribution'),
   },
 });
