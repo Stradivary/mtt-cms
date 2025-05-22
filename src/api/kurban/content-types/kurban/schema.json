@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "kurbans",
+  "info": {
+    "singularName": "kurban",
+    "pluralName": "kurbans",
+    "displayName": "kurban",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "province_id": {
+      "type": "string"
+    },
+    "province_name": {
+      "type": "string"
+    },
+    "city_name": {
+      "type": "string"
+    },
+    "cow_count": {
+      "type": "biginteger"
+    },
+    "goat_count": {
+      "type": "biginteger"
+    },
+    "distribution_types": {
+      "type": "string"
+    },
+    "recipient_count": {
+      "type": "biginteger"
+    },
+    "city_id": {
+      "type": "uid"
+    }
+  }
+}

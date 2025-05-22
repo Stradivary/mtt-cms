@@ -1,0 +1,8 @@
+/* HomePage.module.css */
+.pageWrapper {
+  padding: 2rem !important;
+  background-color: #e0f7fa !important;
+  color: #006064 !important;
+  border-radius: 10px !important;
+  font-size: 1.2rem !important;
+}
