@@ -38,4 +38,4 @@ Thumbs.db
 
 plugins/**/build/
 plugins/**/.cache/
-!src/plugins/kurban-distribution/dist
+!plugins/**/dist/
